@@ -36,6 +36,23 @@ drive.mount('/content/drive')
 !pip install river
 ⚠️ PyCaret may require a restart of the runtime after installation.
 
+## 📊 Results
+
+### 🔍 Drift Detection Example
+
+This plot highlights detected drift points (red) in the streaming power consumption signal.
+
+![Drift Detection](https://raw.githubusercontent.com/majishah/MAAR_Stream/main/images/Drift_plot.jpg)
+
+---
+
+### 📈 Prediction Accuracy
+
+This shows the comparison between predicted and actual energy usage over time.
+
+![Prediction Accuracy](https://raw.githubusercontent.com/majishah/MAAR_Stream/main/images/Forecast2.png)
+
+---
 ## 🚀 Features
 
 - ✅ Handles streaming data with concept drift  
