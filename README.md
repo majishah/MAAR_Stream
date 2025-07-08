@@ -47,19 +47,11 @@ drive.mount('/content/drive')
 
 ### 🔍 Drift Detection Example
 
-This plot highlights detected drift points (red) in the streaming power consumption signal.
+![Drift Detection](images/Drift_plot.jpg)
 
-![Drift Detection](https://raw.githubusercontent.com/majishah/MAAR_Stream/main/images/Drift_plot.jpg)
+### 📈 Prediction Accuracy
 
----
-
-### 📈 Prediction Accuracy (Actual vs Predicted)
-
-This visual compares the model’s forecasts against actual energy consumption values.
-
-![Prediction Accuracy](https://raw.githubusercontent.com/majishah/MAAR_Stream/main/images/Forecast2.png)
-
----
+![Prediction Accuracy](images/Forecast2.png)
 
 
 ## 🛠️ Future Work
