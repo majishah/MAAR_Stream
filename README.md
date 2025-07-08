@@ -43,25 +43,23 @@ drive.mount('/content/drive')
 - ✅ AutoML-based model updating without manual tuning  
 - ✅ Suitable for real-time regression in dynamic environments
 
+## 📊 Results
+
 ### 🔍 Drift Detection Example
 
 This plot highlights detected drift points (red) in the streaming power consumption signal.
 
 ![Drift Detection](https://raw.githubusercontent.com/majishah/MAAR_Stream/main/images/Drift_plot.jpg)
-
-### 📈 Forecast Accuracy (Actual vs Predicted)
-
-Visual comparison of the model's predictions against actual values.
-
-![Prediction Accuracy](images/Forecast2.png)
 
 ---
 
-### 🔍 Drift Detection Example
+### 📈 Prediction Accuracy (Actual vs Predicted)
 
-This plot highlights detected drift points (red) in the streaming power consumption signal.
+This visual compares the model’s forecasts against actual energy consumption values.
 
-![Drift Detection](https://raw.githubusercontent.com/majishah/MAAR_Stream/main/images/Drift_plot.jpg)
+![Prediction Accuracy](https://raw.githubusercontent.com/majishah/MAAR_Stream/main/images/Forecast2.png)
+
+---
 
 
 ## 🛠️ Future Work
