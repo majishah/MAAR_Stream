@@ -64,6 +64,13 @@ Visual comparison of the model's predictions against actual values.
 
 ---
 
+### 🔍 Drift Detection Example
+
+This plot highlights detected drift points (red) in the streaming power consumption signal.
+
+![Drift Detection](https://raw.githubusercontent.com/majishah/MAAR_Stream/main/images/Drift_plot.jpg)
+
+
 ## 🛠️ Future Work
 
 - Extend to classification-based streaming tasks  
