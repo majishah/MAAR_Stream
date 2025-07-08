@@ -43,15 +43,18 @@ drive.mount('/content/drive')
 - ✅ AutoML-based model updating without manual tuning  
 - ✅ Suitable for real-time regression in dynamic environments
 
-## 📊 Results
-
-### 🔍 Drift Detection Example
+#### 🔍 Drift Detection Example
 
 ![Drift Detection](images/Drift_plot.jpg)
 
+---
+
 ### 📈 Prediction Accuracy
 
-![Prediction Accuracy](images/Forecast2.png)
+![Prediction](images/Forecast2.png)
+
+---
+
 
 
 ## 🛠️ Future Work
