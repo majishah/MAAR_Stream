@@ -45,16 +45,9 @@ drive.mount('/content/drive')
 
 ### 🔍 Drift Detection Example
 
-This plot shows when the MAAR framework detects shifts in the underlying data distribution.
+This plot highlights detected drift points (red) in the streaming power consumption signal.
 
-![Drift Detection](images/Drift_plot.jpg)
-
-![Forecast](images/Forecast2.png)
-
-
-
-
----
+![Drift Detection](https://raw.githubusercontent.com/majishah/MAAR_Stream/main/images/Drift_plot.jpg)
 
 ### 📈 Forecast Accuracy (Actual vs Predicted)
 
