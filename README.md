@@ -1,5 +1,6 @@
 # MAAR_Stream 
 # Reliable Streaming Model Adaptation under Concept Drift Impact Using Multiple Windows
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/majishah/MAAR_Stream/blob/main/Core_Modified_Adaptability_Household_Drift.ipynb)
 
 ## Overview
 
