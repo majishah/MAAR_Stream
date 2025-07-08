@@ -43,6 +43,22 @@ drive.mount('/content/drive')
 - ✅ AutoML-based model updating without manual tuning  
 - ✅ Suitable for real-time regression in dynamic environments
 
+### 🔍 Drift Detection Example
+
+This plot shows when the MAAR framework detects shifts in the underlying data distribution.
+
+![Drift Detection](images/Drift_plot.jpg)
+
+---
+
+### 📈 Forecast Accuracy (Actual vs Predicted)
+
+Visual comparison of the model's predictions against actual values.
+
+![Prediction Accuracy](images/Forecast2.png)
+
+---
+
 ## 🛠️ Future Work
 
 - Extend to classification-based streaming tasks  
