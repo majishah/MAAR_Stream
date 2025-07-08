@@ -44,15 +44,28 @@ drive.mount('/content/drive')
 
 This plot highlights detected drift points (red) in the streaming power consumption signal.
 
-![Drift Detection](https://raw.githubusercontent.com/majishah/MAAR_Stream/main/images/Drift_plot.jpg)
+<img src="https://raw.githubusercontent.com/majishah/MAAR_Stream/main/images/Drift_plot.jpg" width="600"/>
 
 ---
 
-### 📈 Prediction Accuracy
+### 📈 Prediction Accuracy (Actual vs Predicted)
 
-This shows the comparison between predicted and actual energy usage over time.
+Comparison between the model’s predictions and the real energy usage data.
 
-![Prediction Accuracy](https://raw.githubusercontent.com/majishah/MAAR_Stream/main/images/Forecast2.png)
+<img src="https://raw.githubusercontent.com/majishah/MAAR_Stream/main/images/Forecast2.png" width="600"/>
+
+---
+
+### 🧱 MAAR Architecture Diagram
+
+Block diagram of the MAAR framework including:
+- Multi-window streaming input
+- Concept drift detection
+- AutoML-based asynchronous model updates
+- Real-time predictions
+
+<img src="https://raw.githubusercontent.com/majishah/MAAR_Stream/main/images/Input.jpg" width="600"/>
+
 
 ---
 ## 🚀 Features
