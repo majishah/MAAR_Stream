@@ -1,27 +1,29 @@
-## 📊 Results
+# MAAR_Stream  
+## Reliable Streaming Model Adaptation under Concept Drift Impact Using Multiple Windows
 
-### 🔍 Drift Detection Example
-
-This plot highlights detected drift points (red) in the streaming power consumption signal.
-
-<img src="https://raw.githubusercontent.com/majishah/MAAR_Stream/main/images/Drift_plot.jpg" width="600"/>
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/majishah/MAAR_Stream/blob/main/Core_Modified_Adaptability_Household_Drift.ipynb)
 
 ---
 
-### 📈 Prediction Accuracy (Actual vs Predicted)
+## 🔍 Overview
 
-Comparison between the model’s predictions and the real energy usage data.
+Historical models perform well on static data. However, maintaining their accuracy over time becomes increasingly difficult, especially in streaming environments characterized by high velocity and continuous change. The primary challenge lies in handling concept drift and ensuring timely adaptation without incurring high computational costs.
 
-<img src="https://raw.githubusercontent.com/majishah/MAAR_Stream/main/images/Forecast2.png" width="600"/>
+To address this, we propose **MAAR** (*Multi-Window and AutoML-based Adaptable Regression*), a resource-efficient framework designed for real-time regression in streaming data. MAAR dynamically detects drift and updates models using asynchronous, AutoML-driven adaptation over multi-window inputs.
+
+Experimental validation confirms that MAAR sustains high predictive accuracy under distributional shifts, making it well-suited for practical deployment in dynamic settings.
 
 ---
 
-### 🧱 MAAR Architecture Diagram
+## 📁 Dataset
 
-Block diagram of the MAAR framework including:
-- Multi-window streaming input
-- Concept drift detection
-- AutoML-based asynchronous model updates
-- Real-time predictions
+- **Source**: [Individual Household Electric Power Consumption](https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+consumption)
+- **Format**: CSV
+- **Description**: Records of household energy usage measured every minute over nearly 4 years.
+- **Preprocessing**: Subsetting to one-minute resolution and selecting the `Global_active_power` feature.
 
-<img src="https://raw.githubusercontent.com/majishah/MAAR_Stream/main/images/Input.jpg" width="600"/>
+---
+
+## 📂 Project Files
+
+
