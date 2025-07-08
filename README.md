@@ -75,19 +75,16 @@ Block diagram of the MAAR framework including:
 - ✅ AutoML-based model updating without manual tuning  
 - ✅ Suitable for real-time regression in dynamic environments
 
-#### 🔍 Drift Detection Example
 
-![Drift Detection](images/Drift_plot.jpg)
+### 🔍 Drift Detection Example
+
+<img src="images/Drift_plot.jpg" width="600"/>
 
 ---
 
 ### 📈 Prediction Accuracy
 
-![Prediction](images/Forecast2.png)
-
----
-
-
+<img src="images/Forecast2.png" width="600"/>
 
 ## 🛠️ Future Work
 
