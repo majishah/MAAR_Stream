@@ -49,6 +49,11 @@ This plot shows when the MAAR framework detects shifts in the underlying data di
 
 ![Drift Detection](images/Drift_plot.jpg)
 
+![Forecast](images/Forecast2.png)
+
+
+
+
 ---
 
 ### 📈 Forecast Accuracy (Actual vs Predicted)
