@@ -24,6 +24,14 @@ Experimental validation confirms that MAAR sustains high predictive accuracy und
 ├── Core_Modified_Adaptability_Household_Drift.ipynb # Full MAAR implementation in Colab
 └── README.md # Project documentation
 
+
+## 🚀 Contribution of this work
+
+- ✅ Handles streaming data with concept drift  
+- ✅ Multi-window learning for temporal sensitivity  
+- ✅ AutoML-based model updating without manual tuning  
+- ✅ Suitable for real-time regression in dynamic environments
+
 ## ⚙️ Installation (Google Colab)
 
 This notebook is designed to run in **Google Colab**. Before running, install the required libraries:
@@ -59,18 +67,11 @@ Comparison between the model’s predictions and the real energy usage data.
 <img src="https://raw.githubusercontent.com/majishah/MAAR_Stream/main/images/Forecast2.png" width="600"/>
 
 
-## 🚀 Features
-
-- ✅ Handles streaming data with concept drift  
-- ✅ Multi-window learning for temporal sensitivity  
-- ✅ AutoML-based model updating without manual tuning  
-- ✅ Suitable for real-time regression in dynamic environments
-
-
 ## 🛠️ Future Work
 
-- Extend to classification-based streaming tasks  
-- Embed in stream processing systems (Kafka, Flink)  
-- Adapt to evolving feature spaces  
+ - Extend to classification-based streaming tasks  
+ - Adapt to evolving feature spaces
+ - Incorporate Interpretability to it
+ - Embed in stream processing systems (Kafka, Flink) 
 
 
