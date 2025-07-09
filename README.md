@@ -12,7 +12,7 @@ To address this, we propose **MAAR** (*Multi-Window and AutoML-based Adaptable R
 
 Experimental validation confirms that MAAR sustains high predictive accuracy under distributional shifts, making it well-suited for practical deployment in dynamic settings.
 
-## 📁 Dataset
+## Dataset
 
 - **Source**: [Individual Household Electric Power Consumption](https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+consumption)
 - **Format**: CSV
@@ -25,14 +25,14 @@ Experimental validation confirms that MAAR sustains high predictive accuracy und
 └── README.md # Project documentation
 
 
-## 🚀 Contribution of this work
+## Contribution of this work
 
 - ✅ Handles streaming data with concept drift  
 - ✅ Multi-window learning for temporal sensitivity  
 - ✅ AutoML-based model updating without manual tuning  
 - ✅ Suitable for real-time regression in dynamic environments
 
-## ⚙️ Installation (Google Colab)
+## Installation (Google Colab)
 
 This notebook is designed to run in **Google Colab**. Before running, install the required libraries:
 
@@ -45,14 +45,14 @@ drive.mount('/content/drive')
 !pip install river
 ⚠️ PyCaret may require a restart of the runtime after installation.
 
-## 📊 Results
+## Results
 
 ### Sample Input Data Visualization
 
 <img src="https://raw.githubusercontent.com/majishah/MAAR_Stream/main/images/Input.jpg" width="600"/>
 
 
-### 🔍 Drift Detection Example
+### Drift Detection Example
 
 This plot highlights detected drift points (red) in the streaming power consumption signal.
 
@@ -60,14 +60,14 @@ This plot highlights detected drift points (red) in the streaming power consumpt
 
 ---
 
-### 📈 Prediction Accuracy (Actual vs Predicted)
+### Prediction Accuracy (Actual vs Predicted)
 
 Comparison between the model’s predictions and the real energy usage data.
 
 <img src="https://raw.githubusercontent.com/majishah/MAAR_Stream/main/images/Forecast2.png" width="600"/>
 
 
-## 🛠️ Future Work
+##  Future Work
 
  - Extend to classification-based streaming tasks  
  - Adapt to evolving feature spaces
