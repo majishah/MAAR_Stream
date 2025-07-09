@@ -12,6 +12,10 @@ To address this, we propose **MAAR** (*Multi-Window and AutoML-based Adaptable R
 
 Experimental validation confirms that MAAR sustains high predictive accuracy under distributional shifts, making it well-suited for practical deployment in dynamic settings.
 
+## Graphical Abstract
+
+<img src="https://raw.githubusercontent.com/majishah/MAAR_Stream/main/images/Graphical_Abstract.png" width="600"/>
+
 ## Dataset
 
 - **Source**: [Individual Household Electric Power Consumption](https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+consumption)
