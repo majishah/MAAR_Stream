@@ -39,6 +39,11 @@ drive.mount('/content/drive')
 
 ## 📊 Results
 
+### Sample Input Data Visualization
+
+<img src="https://raw.githubusercontent.com/majishah/MAAR_Stream/main/images/Input.jpg" width="600"/>
+
+
 ### 🔍 Drift Detection Example
 
 This plot highlights detected drift points (red) in the streaming power consumption signal.
@@ -53,20 +58,7 @@ Comparison between the model’s predictions and the real energy usage data.
 
 <img src="https://raw.githubusercontent.com/majishah/MAAR_Stream/main/images/Forecast2.png" width="600"/>
 
----
 
-### 🧱 MAAR Architecture Diagram
-
-Block diagram of the MAAR framework including:
-- Multi-window streaming input
-- Concept drift detection
-- AutoML-based asynchronous model updates
-- Real-time predictions
-
-<img src="https://raw.githubusercontent.com/majishah/MAAR_Stream/main/images/Input.jpg" width="600"/>
-
-
----
 ## 🚀 Features
 
 - ✅ Handles streaming data with concept drift  
@@ -74,16 +66,6 @@ Block diagram of the MAAR framework including:
 - ✅ AutoML-based model updating without manual tuning  
 - ✅ Suitable for real-time regression in dynamic environments
 
-
-### 🔍 Drift Detection Example
-
-<img src="images/Drift_plot.jpg" width="600"/>
-
----
-
-### 📈 Prediction Accuracy
-
-<img src="images/Forecast2.png" width="600"/>
 
 ## 🛠️ Future Work
 
