@@ -28,7 +28,6 @@ Experimental validation confirms that MAAR sustains high predictive accuracy und
 
 This notebook is designed to run in **Google Colab**. Before running, install the required libraries:
 
-```python
 # Mount Google Drive
 from google.colab import drive
 drive.mount('/content/drive')
@@ -37,59 +36,4 @@ drive.mount('/content/drive')
 !pip install pycaret
 !pip install river
 ⚠️ PyCaret may require a restart of the runtime after installation.
-
-## 📊 Results
-
-### 🔍 Drift Detection Example
-
-This plot highlights detected drift points (red) in the streaming power consumption signal.
-
-<img src="https://raw.githubusercontent.com/majishah/MAAR_Stream/main/images/Drift_plot.jpg" width="600"/>
-
----
-
-### 📈 Prediction Accuracy (Actual vs Predicted)
-
-Comparison between the model’s predictions and the real energy usage data.
-
-<img src="https://raw.githubusercontent.com/majishah/MAAR_Stream/main/images/Forecast2.png" width="600"/>
-
----
-
-### 🧱 MAAR Architecture Diagram
-
-Block diagram of the MAAR framework including:
-- Multi-window streaming input
-- Concept drift detection
-- AutoML-based asynchronous model updates
-- Real-time predictions
-
-<img src="https://raw.githubusercontent.com/majishah/MAAR_Stream/main/images/Input.jpg" width="600"/>
-
-
----
-## 🚀 Features
-
-- ✅ Handles streaming data with concept drift  
-- ✅ Multi-window learning for temporal sensitivity  
-- ✅ AutoML-based model updating without manual tuning  
-- ✅ Suitable for real-time regression in dynamic environments
-
-
-### 🔍 Drift Detection Example
-
-<img src="images/Drift_plot.jpg" width="600"/>
-
----
-
-### 📈 Prediction Accuracy
-
-<img src="images/Forecast2.png" width="600"/>
-
-## 🛠️ Future Work
-
-- Extend to classification-based streaming tasks  
-- Embed in stream processing systems (Kafka, Flink)  
-- Adapt to evolving feature spaces  
-
 
